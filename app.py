@@ -100,6 +100,5 @@ pred = fc.set_index("date")["predicted_units"].rename("Forecast")
 st.line_chart(pd.concat([hist, pred], axis=1))
 
 with st.expander("See forecast table"):
-    st.dataframe(fc, use_container_width=True)
-
+           st.dataframe(fc)
 st.caption(f"History in this demo ends on {df['date'].max().date()}. Forecast starts the next day.")

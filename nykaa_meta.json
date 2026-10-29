@@ -1,0 +1,1 @@
+{"features": ["city_code", "product_code", "discount_pct", "is_festival", "month", "day", "weekday", "weekend", "m_sin", "m_cos", "lag_7", "lag_14", "lag_28", "roll_mean_7", "roll_mean_28"], "city_map": {"Bengaluru": 0, "Bhopal": 1, "Mumbai": 2}, "product_map": {"Face Serum": 0, "Foundation": 1, "Lipstick": 2, "Perfume": 3, "Shampoo": 4}}
